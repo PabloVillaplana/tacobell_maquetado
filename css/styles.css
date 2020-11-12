@@ -25,7 +25,7 @@ header img {
 
 .hero_grid_container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 40px 40px;
     padding: 7em 7em 4em;
 }
